@@ -1,0 +1,32 @@
+.js-video-container {
+    flex-grow: 1;
+}
+
+.video-player {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+    background-color: black;
+    display: flex;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+button.player-button {
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    font-size: large;
+    line-height: 1.5;
+    width: 30px;
+    height: 30px;
+    padding: 2px 2px;
+}
