@@ -3,4 +3,6 @@
 
 Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
 
-## Примеры
+## Пример
+[Сайт с плеером](https://dmitry-zharinov.github.io/video-player-layout/).
+
