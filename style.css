@@ -2,7 +2,7 @@
     flex-grow: 1;
 }
 
-.video-player {
+.vp-video-player {
     width: 800px;
     height: 600px;
     display: flex;
@@ -10,17 +10,17 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.buttons {
+.vp-buttons {
     background-color: black;
     display: flex;
     align-items: center;
 }
 
-.spacer {
+.vp-spacer {
     flex-grow: 1;
 }
 
-button.player-button {
+.vp-player-button {
     border-style: none;
     cursor: pointer;
     color: white;
