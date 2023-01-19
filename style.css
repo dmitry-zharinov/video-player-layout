@@ -11,14 +11,14 @@
     box-shadow: 0 0 12px 6px rgba(0,0,0,0.6);
 }
 
-.vp-buttons {
+.vp-bottom-controls {
     background-color: black;
     display: flex;
     align-items: center;
 }
 
-.vp-spacer {
-    flex-grow: 1;
+.vp-left-buttons {
+    display: flex;
 }
 
 .vp-player-button {
@@ -27,7 +27,29 @@
     color: white;
     background-color: transparent;
     font-size: 15pt;
-    width: 1.5em;
     height: 2em;
-    padding: 0 1.5em 0.2em 0.5em;
+    padding: 0 0.5em 0.1em 0.5em;
 }
+
+.vp-viewing-panel{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;   
+    margin-bottom: 2px;
+}
+
+.vp-progress-bar {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.vp-progress-slider {
+    background-color: #f8104d;
+    height: 5px;
+    border-radius: 2px;
+  }
