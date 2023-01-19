@@ -7,7 +7,7 @@
     height: 600px;
     display: flex;
     flex-direction: column;
-    margin: -2px -2.1px 0;
+    margin: -1.8px -1.4px 0;
     box-shadow: 0 0 12px 6px rgba(0,0,0,0.6);
 }
 
@@ -28,7 +28,8 @@
     background-color: transparent;
     font-size: 15pt;
     height: 2em;
-    padding: 0 0.5em 0.1em 0.5em;
+    width: 1.8em;
+    padding: 0 0.4em 0 0.5em;
 }
 
 .vp-viewing-panel{
@@ -36,8 +37,9 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-grow: 1;
-    align-items: center;   
-    margin-bottom: 2px;
+    align-items: center;
+    /* margin-bottom: 0.2em; */
+    /* margin-left: 0.1em; */
 }
 
 .vp-progress-bar {
@@ -52,4 +54,13 @@
     background-color: #f8104d;
     height: 5px;
     border-radius: 2px;
-  }
+}
+
+.vp-progress-dot {
+    height: 0.5em;
+    width: 0.5em;
+    background-color: #f8104d;
+    border-radius: 10px;
+    border: 3px solid white;
+    display: inline-block;
+}
