@@ -63,4 +63,15 @@
     border-radius: 10px;
     border: 3px solid white;
     display: inline-block;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out, ease-in;    
+}
+
+.vp-progress-bar:hover .vp-progress-dot {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out, ease-in;    
 }
