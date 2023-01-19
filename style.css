@@ -32,14 +32,16 @@
     padding: 0 0.4em 0 0.5em;
 }
 
+.vp-player-button:focus {
+    outline: none;
+}
+
 .vp-viewing-panel{
     color: white;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-grow: 1;
     align-items: center;
-    /* margin-bottom: 0.2em; */
-    /* margin-left: 0.1em; */
 }
 
 .vp-progress-bar {
